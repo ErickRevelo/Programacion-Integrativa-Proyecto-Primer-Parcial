@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tiendita</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/0de35bde58.js" crossorigin="anonymous"></script>
+        <script src="header.js" defer></script>
+        <script src="sidebar.js" defer></script>
+        <script src="footer.js" defer></script> 
+        <script src="misproductos.js"></script>
+        <script src="formulario-misproductos.js"></script>
+        <script src="empleados.js"></script>
+        <script src="formulario-empleados.js"></script>
+        <script type="module" src="Conexion-BD.js"></script>
+        
+
+
+    </head>
+    <body>
+        <app-header></app-header>
+        <mi-sidebar></mi-sidebar> 
+
+
+        <div class="container">
+            
+            <main>
+
+                <h1>BIENVENIDOS A NUESTRA TIENDITA <i class="fa-solid fa-store"></i></h1>
+
+                <div class="division-productos">
+                   
+                    <div class="Primera">
+                        <h2>Productos <i class="fa-solid fa-cart-shopping"></i></h2>
+                        <product-form></product-form>
+                    </div>
+
+                    <div class="segunda">
+                        <h2>Tabla Productos</h2>
+                        <product-table></product-table>
+                    </div>
+
+                </div>
+
+                <div class="division-empleados">
+                    
+                    <div class="primera">
+                        <h2>Empleados <i class="fa-solid fa-users"></i></h2>
+                        <employee-form></employee-form>
+                    </div>
+
+                    <div class="segunda">
+                        <h2>Tabla Empleados</h2>
+                        <employee-table></employee-table>
+                    </div>
+
+                </div>
+
+
+            </main>
+            
+        </div>
+
+        <app-footer></app-footer>
+
+    </body>
+</html>
