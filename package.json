@@ -17,7 +17,7 @@
   "scripts": {
   "start": "node Conexion-BD.mjs"
   },
-  "author": "Erick Revelo",
+  "author": "Erick Revelo & Giovanna Soria",
   "license": "ISC",
   "keywords": []
 }
